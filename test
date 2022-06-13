@@ -1,0 +1,11 @@
+"""
+This is test class
+"""
+
+import function
+
+class TestCalci:
+
+   def test_addition(self):
+        assert 4 == function.add(2, 2)
+
